@@ -24,7 +24,7 @@ class _IntroPageState extends State<IntroPage> {
                 flex: 1,
               ),
               const Text(
-                "Flutter Forms",
+                "Welcome Back, Login",
                 style: TextStyle(fontSize: 55, fontWeight: FontWeight.w800),
               ),
               const Spacer(
@@ -34,7 +34,7 @@ class _IntroPageState extends State<IntroPage> {
                 controller: _nameController,
                 decoration: InputDecoration(
                     labelText: "Name",
-                    hintText: "John Doe",
+                    hintText: "Your name",
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(15))),
               ),
